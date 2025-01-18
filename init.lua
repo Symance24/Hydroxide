@@ -89,7 +89,6 @@ globalMethods.getUpvalue = function(closure, index)
 end
 
 globalMethods.getUpvalues = function(closure)
-    if not islclosure(closure) then return end
     if type(closure) == "table" then
         return oldGetUpvalues(closure.Data)
     end
