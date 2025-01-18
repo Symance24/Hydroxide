@@ -1,6 +1,8 @@
+ORIGINAL BY UPBOLT / THIS ONE IS REPAIRED
+
 ## Script
 ```lua
-local owner = "Upbolt"
+local owner = "Symance24"
 local branch = "revision"
 
 local function webImport(file)
@@ -11,18 +13,10 @@ webImport("init")
 webImport("ui/main")
 ```
 
-# Hydroxide
+# Hydroxide +
 <i>Lua runtime introspection and network capturing tool for games on the Roblox engine.</i>
 
-~~Report issues to our Discord server: https://discord.gg/DJxBwAX~~
 
-<ins>New Discord server will be established when the next major release is ready for use</ins>
-
-<p align="center">
-    <img src="https://cdn.discordapp.com/attachments/633472429917995038/722143730500501534/Hydroxide_Logo.png"/>
-    </br>
-    <img src="https://raw.githubusercontent.com/Upbolt/Hydroxide/revision/github-assets/ui.png" width="677px"/>
-</p>
 
 ## Features
 * Upvalue Scanner
@@ -48,8 +42,4 @@ webImport("ui/main")
 
 More to come, soon.
 
-## Images/Videos
-<p align="center">
-    <img src="https://i.gyazo.com/63afdd764cdca533af5ebca843217a7e.gif" />
-</p>
 
