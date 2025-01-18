@@ -250,7 +250,7 @@ if readFile and writeFile then
             return unpack(assets)
         end
 
-        writeFile("__oh_version.txt", releaseInfo.tag_name)
+        writeFile("__oh_version.txt", "1.35")
     elseif ran and releaseInfo.tag_name == result then
         function environment.import(asset)
             if importCache[asset] then
